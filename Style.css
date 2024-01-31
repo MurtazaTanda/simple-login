@@ -1,0 +1,66 @@
+body {
+    background-color: black;
+}
+
+
+.container {
+    background-color: rgb(209, 203, 203);
+    width: 700px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 100px auto auto auto;
+    border-radius: 10px;
+}
+
+.firstcontainer {
+    margin-left: 10px;
+}
+
+input {
+    padding: 10px;
+    width: 600px;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    margin-left: 13pc;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    background-color: green;
+    opacity: 0.8;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 1;
+
+}
+
+.footer {
+    margin-left: 12pc;
+}
+
+span {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.forgot {
+    margin-left: 4pc;
+    color: blue;
+    text-decoration: underline;
+}
+
+.icons {
+    display: flex;
+    font-size: 25px;
+    gap: 10px;
+}
